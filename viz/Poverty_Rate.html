@@ -1,0 +1,27 @@
+<!doctype html>
+<meta charset="utf-8">
+
+<script src="../d3plus.v2.js"></script>
+
+<body>
+
+</body>
+
+<script>
+
+  var data = [
+    {id: "Milton", x: 4, y:  4},
+    {id: "Milton", x: 5, y: 5.8},
+    {id: "Milton", x: 6, y: 3.2},
+    {id: "Mattapan",  x: 7, y: 30.6},
+    {id: "Mattapan",  x: 8, y: 19.7},
+    {id: "Mattapan",  x: 9, y: 9.1}
+  ];
+
+
+  new d3plus.BarChart()
+    .data(data)
+    .render();
+
+
+</script>
